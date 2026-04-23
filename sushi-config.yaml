@@ -75,10 +75,6 @@ pages:
       title: Profiles and Extensions
     terminology.md:
       title: Terminology
-    actors.md:
-      title: Actor Definitions
-    capability-statements.md:
-      title: Capability Statements
     search-parameters.md:
       title: Search Parameters
   examples.md:
@@ -172,8 +168,6 @@ menu:
     "Artefacts Summary": artifacts.html
     "Profiles and Extensions": profiles-and-extensions.html
     "Terminology": terminology.html
-    "Actor Definitions": actors.html
-    "Capability Statements": capability-statements.html
     "Search Parameters": search-parameters.html
   Examples: examples.html
   Support:
