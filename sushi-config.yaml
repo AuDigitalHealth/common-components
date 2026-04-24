@@ -269,7 +269,7 @@ contact:
 experimental: false
 # * useContext
 copyright: Copyright © 2026 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
-packageId: au.gov.digitalhealth.hcpd
+packageId: au.gov.digitalhealth.cc
 #
 #
 # ╭──────────────────────────────────────────SUSHI flags───────────────────────────────────────────╮
