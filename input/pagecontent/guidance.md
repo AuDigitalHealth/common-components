@@ -20,4 +20,9 @@ The following practical criteria are used to determine whether a component (prof
 Components not meeting these criteria may be excluded or deferred until requirements are satisfied.
 
 ## Principles of Use and Change Management 
+
+### Profiling and Deriving
 When subordinate IGs require changes to a shared component, updates should be made in the common components IG so that all dependent IGs benefit where appropriate. Subordinate IGs should derive their profiles from the common component first, and only apply bespoke profiling locally if absolutely necessary. This ensures consistency and reduces duplication across IGs.
+
+### Use cases
+All common components should name their IG implementations in associated narrative for justification towards inclusion. 
