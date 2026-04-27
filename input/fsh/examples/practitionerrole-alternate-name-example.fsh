@@ -1,9 +1,6 @@
 Instance: practitionerrole-alternate-name-example
 InstanceOf: PractitionerRole
 * id = "alternate-name-example"
-* meta.profile = "http://digitalhealth.gov.au/fhir/hcpd/StructureDefinition/hcpd-practitionerrole"
-* meta.security[+] = <AFF_SECURITY_CODE> "<AFF Security Display>" // TODO: Replace with actual code
-* meta.tag[+] = <AFF_TAG_CODE> "<AFF Tag Display>" // TODO: Replace with actual code
 * active = true
 * practitioner.display = "Dr Alexandra Smith"
 * organization.display = "Example Health Organisation"

@@ -1,9 +1,6 @@
 Instance: location-amenity-example
 InstanceOf: Location
 * id = "amenity-example"
-* meta.profile = "http://digitalhealth.gov.au/fhir/hcpd/StructureDefinition/hcpd-location"
-* meta.security[+] = <AFF_SECURITY_CODE> "<AFF Security Display>" // TODO: Replace with actual code
-* meta.tag[+] = <AFF_TAG_CODE> "<AFF Tag Display>" // TODO: Replace with actual code
 * status = #active
 * name = "Example Clinic Location"
 * description = "A sample clinic location with wheelchair access."

@@ -1,9 +1,6 @@
 Instance: healthcareservice-new-patient-availability-example
 InstanceOf: HealthcareService
 * id = "new-patient-availability-example"
-* meta.profile = "http://digitalhealth.gov.au/fhir/hcpd/StructureDefinition/hcpd-healthcareservice"
-* meta.security[+] = <AFF_SECURITY_CODE> "<AFF Security Display>" // TODO: Replace with actual code
-* meta.tag[+] = <AFF_TAG_CODE> "<AFF Tag Display>" // TODO: Replace with actual code
 * active = true
 * name = "Example General Practice"
 * type[+] = http://snomed.info/sct#394802001 "General medicine"

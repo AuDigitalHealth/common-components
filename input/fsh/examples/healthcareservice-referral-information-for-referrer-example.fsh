@@ -1,9 +1,6 @@
 Instance: healthcareservice-referral-information-for-referrer-example
 InstanceOf: HealthcareService
 * id = "referral-information-for-referrer-example"
-* meta.profile = "http://digitalhealth.gov.au/fhir/hcpd/StructureDefinition/hcpd-healthcareservice"
-* meta.security[+] = <AFF_SECURITY_CODE> "<AFF Security Display>" // TODO: Replace with actual code
-* meta.tag[+] = <AFF_TAG_CODE> "<AFF Tag Display>" // TODO: Replace with actual code
 * active = true
 * name = "Example Cardiology Service"
 * type[+] = http://snomed.info/sct#394579002 "Cardiology"
