@@ -103,12 +103,10 @@ This table lists the experimental dependencies used within this specification at
       <td>N/A</td>
     </tr>
     <tr>
-      <td>
-        <td><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-hc-suppressed.html">Suppressed</a></td>
-        <td style="text-align:center"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-hc-suppressed.html">HCPD</a></td>
-        <td style="text-align:center">—</td>
-        <td><a href="http://digitalhealth.gov.au/fhir/cc/ValueSet/suppressed-vs">Common Components IG ValueSet</a> / <a href="http://digitalhealth.gov.au/fhir/cc/CodeSystem/suppressed-cs">CodeSystem</a></td>
-    </tr>
+      <td><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-hc-suppressed.html">Suppressed</a></td>
+      <td style="text-align:center"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-hc-suppressed.html">HCPD</a></td>
+      <td style="text-align:center">—</td>
+      <td><a href="http://digitalhealth.gov.au/fhir/cc/ValueSet/suppressed-vs">Common Components IG ValueSet</a> / <a href="http://digitalhealth.gov.au/fhir/cc/CodeSystem/suppressed-cs">CodeSystem</a></td>
     </tr>
   </tbody>
 </table>
