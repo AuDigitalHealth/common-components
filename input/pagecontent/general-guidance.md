@@ -50,63 +50,63 @@ This table lists the experimental dependencies used within this specification at
 </table>
 
 <h3>Extension Summary Table</h3>
-<table>
+<table style="border-collapse:collapse;">
   <thead>
     <tr>
-      <th>Extension Name</th>
-      <th>IG Where First Published</th>
-      <th>Found in Subsequent IGs</th>
-      <th>Associated Terminology</th>
+      <th style="border:1px solid #888;padding:8px 16px;">Extension Name</th>
+      <th style="border:1px solid #888;padding:8px 16px;">IG Where First Published</th>
+      <th style="border:1px solid #888;padding:8px 16px;">Found in Subsequent IGs</th>
+      <th style="border:1px solid #888;padding:8px 16px;">Associated Terminology</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="StructureDefinition-active-period.md">Active Period</a></td>
-      <td style="text-align:center"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-active-period.html">PCA</a></td>
-      <td style="text-align:center"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-active-period.html">HCPD</a></td>
-      <td>N/A</td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-active-period.md">Active Period</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-active-period.html">PCA</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-active-period.html">HCPD</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;">N/A</td>
     </tr>
     <tr>
-      <td><a href="StructureDefinition-alternate-name.md">Alternate Name</a></td>
-      <td style="text-align:center"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-preferred-name.html">PCA</a></td>
-      <td style="text-align:center"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-alternate-name.html">HCPD</a></td>
-      <td>N/A</td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-alternate-name.md">Alternate Name</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-preferred-name.html">PCA</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-alternate-name.html">HCPD</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;">N/A</td>
     </tr>
     <tr>
-      <td><a href="StructureDefinition-amenity.md">Amenity</a></td>
-      <td style="text-align:center"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-amenity.html">PCA</a></td>
-      <td style="text-align:center"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-amenity.html">HCPD</a></td>
-      <td><a href="https://healthterminologies.gov.au/fhir/ValueSet/facility-amenity-1">NCTS Facility Amenity ValueSet</a> / <a href="https://www.healthterminologies.gov.au/integration/R4/fhir/CodeSystem/facility-amenity-1">CodeSystem</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-amenity.md">Amenity</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-amenity.html">PCA</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-amenity.html">HCPD</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="https://healthterminologies.gov.au/fhir/ValueSet/facility-amenity-1">NCTS Facility Amenity ValueSet</a> / <a href="https://www.healthterminologies.gov.au/integration/R4/fhir/CodeSystem/facility-amenity-1">CodeSystem</a></td>
     </tr>
     <tr>
-      <td><a href="StructureDefinition-iar-levels-of-care.md">IAR Levels of Care</a></td>
-      <td style="text-align:center"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-iar-levels-of-care.html">PCA</a></td>
-      <td style="text-align:center"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-iar-levels-of-care.html">HCPD</a></td>
-      <td><a href="https://healthterminologies.gov.au/fhir/ValueSet/iar-levels-of-care-1">NCTS IAR Levels of Care ValueSet</a> / <a href="https://www.healthterminologies.gov.au/integration/R4/fhir/CodeSystem/iar-levels-of-care-1">CodeSystem</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-iar-levels-of-care.md">IAR Levels of Care</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-iar-levels-of-care.html">PCA</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-iar-levels-of-care.html">HCPD</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="https://healthterminologies.gov.au/fhir/ValueSet/iar-levels-of-care-1">NCTS IAR Levels of Care ValueSet</a> / <a href="https://www.healthterminologies.gov.au/integration/R4/fhir/CodeSystem/iar-levels-of-care-1">CodeSystem</a></td>
     </tr>
     <tr>
-      <td><a href="StructureDefinition-new-patient-availability.md">New Patient Availability</a></td>
-      <td style="text-align:center"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-new-patient-availability.html">PCA</a></td>
-      <td style="text-align:center"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-new-patient-availability.html">HCPD</a></td>
-      <td><a href="http://digitalhealth.gov.au/fhir/hcpd/ValueSet/new-patient-availability-vs">Common Components IG ValueSet</a> / <a href="http://digitalhealth.gov.au/fhir/hcpd/CodeSystem/new-patient-availability">CodeSystem</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-new-patient-availability.md">New Patient Availability</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-new-patient-availability.html">PCA</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-new-patient-availability.html">HCPD</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="http://digitalhealth.gov.au/fhir/hcpd/ValueSet/new-patient-availability-vs">Common Components IG ValueSet</a> / <a href="http://digitalhealth.gov.au/fhir/hcpd/CodeSystem/new-patient-availability">CodeSystem</a></td>
     </tr>
     <tr>
-      <td><a href="StructureDefinition-practitioner-role-communication.md">Practitioner Role Communication</a></td>
-      <td style="text-align:center"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-practitioner-role-communication.html">PCA</a></td>
-      <td style="text-align:center"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-practitioner-role-communication.html">HCPD</a></td>
-      <td><a href="https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2">NCTS Common Languages</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-practitioner-role-communication.md">Practitioner Role Communication</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-practitioner-role-communication.html">PCA</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-practitioner-role-communication.html">HCPD</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2">NCTS Common Languages</a></td>
     </tr>
     <tr>
-      <td><a href="StructureDefinition-referral-information-for-referrer.md">Referral Information for Referrer</a></td>
-      <td style="text-align:center"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-referral-information-for-provider.html">PCA</a></td>
-      <td style="text-align:center"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-referral-information-for-referrer.html">HCPD</a></td>
-      <td>N/A</td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-referral-information-for-referrer.md">Referral Information for Referrer</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-referral-information-for-provider.html">PCA</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-referral-information-for-referrer.html">HCPD</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;">N/A</td>
     </tr>
     <tr>
-      <td><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-hc-suppressed.html">Suppressed</a></td>
-      <td style="text-align:center"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-hc-suppressed.html">HCPD</a></td>
-      <td style="text-align:center">—</td>
-      <td><a href="http://digitalhealth.gov.au/fhir/cc/ValueSet/suppressed-vs">Common Components IG ValueSet</a> / <a href="http://digitalhealth.gov.au/fhir/cc/CodeSystem/suppressed-cs">CodeSystem</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-hc-suppressed.html">Suppressed</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-hc-suppressed.html">HCPD</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">—</td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="http://digitalhealth.gov.au/fhir/cc/ValueSet/suppressed-vs">Common Components IG ValueSet</a> / <a href="http://digitalhealth.gov.au/fhir/cc/CodeSystem/suppressed-cs">CodeSystem</a></td>
     </tr>
   </tbody>
 </table>
