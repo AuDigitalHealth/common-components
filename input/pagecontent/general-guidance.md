@@ -88,7 +88,7 @@ This table lists the experimental dependencies used within this specification at
       <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-new-patient-availability.md">New Patient Availability</a></td>
       <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-new-patient-availability.html">PCA</a></td>
       <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-new-patient-availability.html">HCPD</a></td>
-      <td style="border:1px solid #888;padding:8px 16px;"><a href="http://digitalhealth.gov.au/fhir/hcpd/ValueSet/new-patient-availability-vs">Common Components IG ValueSet</a> / <a href="http://digitalhealth.gov.au/fhir/hcpd/CodeSystem/new-patient-availability">CodeSystem</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="https://www.healthterminologies.gov.au/integration/R4/fhir/ValueSet/new-patient-availability-1">NCTS New Patient Availability ValueSet</a> / <a href="https://www.healthterminologies.gov.au/integration/R4/fhir/CodeSystem/new-patient-availability-1">CodeSystem</a></td>
     </tr>
     <tr>
       <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-practitioner-role-communication.md">Practitioner Role Communication</a></td>
