@@ -76,19 +76,19 @@ This table lists the experimental dependencies used within this specification at
       <td><a href="StructureDefinition-amenity.md">Amenity</a></td>
       <td style="text-align:center"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-amenity.html">PCA</a></td>
       <td style="text-align:center"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-amenity.html">HCPD</a></td>
-      <td><a href="https://healthterminologies.gov.au/fhir/ValueSet/facility-amenity-1">NCTS Facility Amenity</a></td>
+      <td><a href="https://healthterminologies.gov.au/fhir/ValueSet/facility-amenity-1">NCTS Facility Amenity ValueSet</a> / <a href="https://www.healthterminologies.gov.au/integration/R4/fhir/CodeSystem/facility-amenity-1">CodeSystem</a></td>
     </tr>
     <tr>
       <td><a href="StructureDefinition-iar-levels-of-care.md">IAR Levels of Care</a></td>
       <td style="text-align:center"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-iar-levels-of-care.html">PCA</a></td>
       <td style="text-align:center"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-iar-levels-of-care.html">HCPD</a></td>
-      <td><a href="https://healthterminologies.gov.au/fhir/ValueSet/iar-levels-of-care-1">NCTS IAR Levels of Care</a></td>
+      <td><a href="https://healthterminologies.gov.au/fhir/ValueSet/iar-levels-of-care-1">NCTS IAR Levels of Care ValueSet</a> / <a href="https://www.healthterminologies.gov.au/integration/R4/fhir/CodeSystem/iar-levels-of-care-1">CodeSystem</a></td>
     </tr>
     <tr>
       <td><a href="StructureDefinition-new-patient-availability.md">New Patient Availability</a></td>
       <td style="text-align:center"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-new-patient-availability.html">PCA</a></td>
       <td style="text-align:center"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-new-patient-availability.html">HCPD</a></td>
-      <td><a href="http://digitalhealth.gov.au/fhir/hcpd/ValueSet/new-patient-availability-vs">Common Components IG</a></td>
+      <td><a href="http://digitalhealth.gov.au/fhir/hcpd/ValueSet/new-patient-availability-vs">Common Components IG ValueSet</a> / <a href="http://digitalhealth.gov.au/fhir/hcpd/CodeSystem/new-patient-availability">CodeSystem</a></td>
     </tr>
     <tr>
       <td><a href="StructureDefinition-practitioner-role-communication.md">Practitioner Role Communication</a></td>
@@ -101,6 +101,12 @@ This table lists the experimental dependencies used within this specification at
       <td style="text-align:center"><a href="https://implementer.digitalhealth.gov.au/fhir/provider-connect-australia/current/StructureDefinition-pca-referral-information-for-provider.html">PCA</a></td>
       <td style="text-align:center"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-referral-information-for-referrer.html">HCPD</a></td>
       <td>N/A</td>
+    </tr>
+    <tr>
+      <td><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-hc-suppressed.html">Suppressed</a></td>
+      <td style="text-align:center"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-hc-suppressed.html" </a>HCPD</td>
+      <td style="text-align:center">—</td>
+      <td><a href="http://digitalhealth.gov.au/fhir/cc/ValueSet/suppressed-vs">Common Components IG ValueSet</a> / <a href="http://digitalhealth.gov.au/fhir/cc/CodeSystem/suppressed-cs">CodeSystem</a></td>
     </tr>
   </tbody>
 </table>
