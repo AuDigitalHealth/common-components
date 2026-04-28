@@ -1,9 +1,10 @@
 Instance: healthcareservice-referral-information-for-referrer-example
 InstanceOf: HealthcareService
-* description = "A HealthcareService example with referral information for referrer extension."
+Title: "Referral Information for Referrer Example"
+Description: "A HealthcareService example with referral information for referrer extension."
 * id = "referral-information-for-referrer-example"
 * active = true
-* name = "Example Cardiology Service"
+* name = "Paul Hogan Memorial Croc Cardiology Clinic"
 * type[+] = http://snomed.info/sct#394579002 "Cardiology"
 * providedBy.display = "Example Health Organisation"
 * telecom[+].system = #phone

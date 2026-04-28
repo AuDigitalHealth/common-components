@@ -1,9 +1,10 @@
 Instance: practitionerrole-alternate-name-example
 InstanceOf: PractitionerRole
-* description = "A PractitionerRole example with alternate name extension."
+Title: "Alternate Name Example"
+Description: "A PractitionerRole example with alternate name extension."
 * id = "alternate-name-example"
 * active = true
-* practitioner.display = "Dr Alexandra Smith"
+* practitioner.display = "Dr Kylie Boomerang"
 * organization.display = "Example Health Organisation"
 * code[+] = http://snomed.info/sct#309343006 "Physician"
 * specialty[+] = http://snomed.info/sct#408443003 "General medical practice"

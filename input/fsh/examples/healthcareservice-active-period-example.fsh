@@ -1,9 +1,10 @@
 Instance: healthcareservice-active-period-example
 InstanceOf: HealthcareService
-* description = "A HealthcareService example showing an active period for the service."
+Title: "Active Period Example"
+Description: "A HealthcareService example showing an active period for the service."
 * id = "active-period-example"
 * active = true
-* name = "Example Allied Health Service"
+* name = "Dame Edna's Gladiolus Therapy Centre"
 * type[+] = http://snomed.info/sct#394913002 "Psychotherapy (specialty)"
 * providedBy.display = "Example Health Organisation"
 * telecom[+].system = #phone

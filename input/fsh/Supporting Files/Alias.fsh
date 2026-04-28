@@ -41,4 +41,5 @@ Alias: $amenityCS = https://healthterminologies.gov.au/fhir/CodeSystem/facility-
 Alias: $AUEndpointPayloadTypeCS = http://hl7.org.au/fhir/pd/CodeSystem/endpoint-payload-type
 Alias: $IARCodeSystem = https://healthterminologies.gov.au/fhir/CodeSystem/iar-levels-of-care-1
 Alias: $IARValueSet = https://healthterminologies.gov.au/fhir/ValueSet/iar-levels-of-care-1
-Alias: $Suppressed_VS = http://digitalhealth.gov.au/fhir/cc/StructureDefinition/suppressed
+Alias: $Suppressed_VS = http://digitalhealth.gov.au/fhir/cc/ValueSet/suppressed-vs
+Alias: $Suppressed_CS = http://digitalhealth.gov.au/fhir/cc/CodeSystem/suppressed-vs

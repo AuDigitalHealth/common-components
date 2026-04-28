@@ -1,9 +1,10 @@
 Instance: practitionerrole-practitioner-role-communication-example
 InstanceOf: PractitionerRole
-* description = "A PractitionerRole example with practitioner role communication extension."
+Title: "Practitioner Role Communication Example"
+Description: "A PractitionerRole example with practitioner role communication extension."
 * id = "practitioner-role-communication-example"
 * active = true
-* practitioner.display = "Dr John Lee"
+* practitioner.display = "Dr Bruce Dundee"
 * organization.display = "Example Health Organisation"
 * code[+] = http://snomed.info/sct#309343006 "Physician"
 * specialty[+] = http://snomed.info/sct#408443003 "General medical practice"

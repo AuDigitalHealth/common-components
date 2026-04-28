@@ -1,9 +1,10 @@
 Instance: healthcareservice-new-patient-availability-example
 InstanceOf: HealthcareService
-* description = "A HealthcareService example showing new patient availability extension."
+Title: "New Patient Availability Example"
+Description: "A HealthcareService example showing new patient availability extension."
 * id = "new-patient-availability-example"
 * active = true
-* name = "Example General Practice"
+* name = "Russell Coight's Outback Flying Doctor Service"
 * type[+] = http://snomed.info/sct#394802001 "General medicine"
 * providedBy.display = "Example Health Organisation"
 * telecom[+].system = #phone
