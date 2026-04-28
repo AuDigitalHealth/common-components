@@ -11,4 +11,4 @@ Description: "A HealthcareService example showing new patient availability exten
 * telecom[=].value = "+61 7 5555 1234"
 * telecom[=].use = #work
 * extension[+].url = "http://digitalhealth.gov.au/fhir/cc/StructureDefinition/new-patient-availability"
-* extension[=].valueCodeableConcept = http://digitalhealth.gov.au/fhir/hcpd/CodeSystem/new-patient-availability#yes "Accepting New Patients" // TODO: Replace with a code from http://digitalhealth.gov.au/fhir/hcpd/ValueSet/new-patient-availability-vs
+* extension[=].valueCodeableConcept = https://www.healthterminologies.gov.au/integration/R4/fhir/CodeSystem/new-patient-availability-1#accepting "accepting new patients"
