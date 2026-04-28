@@ -1,5 +1,6 @@
 Instance: healthcareservice-new-patient-availability-example
 InstanceOf: HealthcareService
+* description = "A HealthcareService example showing new patient availability extension."
 * id = "new-patient-availability-example"
 * active = true
 * name = "Example General Practice"

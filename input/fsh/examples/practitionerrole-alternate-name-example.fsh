@@ -1,5 +1,6 @@
 Instance: practitionerrole-alternate-name-example
 InstanceOf: PractitionerRole
+* description = "A PractitionerRole example with alternate name extension."
 * id = "alternate-name-example"
 * active = true
 * practitioner.display = "Dr Alexandra Smith"

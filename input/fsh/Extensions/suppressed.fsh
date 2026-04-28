@@ -27,7 +27,7 @@ Description: "Indicates whether the parent resource should be hidden from displa
 * extension[suppressedBy].value[x] only CodeableConcept
 * extension[suppressedBy].valueCodeableConcept 1..1 MS
 * extension[suppressedBy].valueCodeableConcept.coding 1..2
-* extension[suppressedBy].valueCodeableConcept.coding from $HCPD_Suppressed_VS (required)
+* extension[suppressedBy].valueCodeableConcept.coding from $Suppressed_VS (required)
 * extension[includeSelf] ^short = "Controls Organization self-suppression"
 * extension[includeSelf] ^definition = "When true, this Organization and all child resources (HealthcareService, Location, PractitionerRole, Endpoint) are suppressed via cascade. When false, this Organization remains visible while child resources are suppressed via cascade. Only applies to Organization resources."
 * extension[includeSelf].value[x] only boolean

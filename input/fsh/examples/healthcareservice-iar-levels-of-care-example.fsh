@@ -1,5 +1,6 @@
 Instance: healthcareservice-iar-levels-of-care-example
 InstanceOf: HealthcareService
+* description = "A HealthcareService example with IAR levels of care extension."
 * id = "iar-levels-of-care-example"
 * active = true
 * name = "Example Mental Health Service"

@@ -1,5 +1,6 @@
 Instance: healthcareservice-referral-information-for-referrer-example
 InstanceOf: HealthcareService
+* description = "A HealthcareService example with referral information for referrer extension."
 * id = "referral-information-for-referrer-example"
 * active = true
 * name = "Example Cardiology Service"

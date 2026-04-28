@@ -1,5 +1,6 @@
 Instance: healthcareservice-active-period-example
 InstanceOf: HealthcareService
+* description = "A HealthcareService example showing an active period for the service."
 * id = "active-period-example"
 * active = true
 * name = "Example Allied Health Service"

@@ -1,5 +1,6 @@
 Instance: practitionerrole-practitioner-role-communication-example
 InstanceOf: PractitionerRole
+* description = "A PractitionerRole example with practitioner role communication extension."
 * id = "practitioner-role-communication-example"
 * active = true
 * practitioner.display = "Dr John Lee"
