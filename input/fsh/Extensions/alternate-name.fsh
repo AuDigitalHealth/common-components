@@ -23,10 +23,5 @@ Context: PractitionerRole
 * valueHumanName ^definition = "The alternate name by which the practitioner wishes to be known in this role context."
 * valueHumanName.use MS
 * valueHumanName.use ^short = "Alternate name use"
-* valueHumanName.use ^definition = "The use of this alternate name (usual, temp, etc.)"
 * valueHumanName.family MS
-* valueHumanName.family ^short = "Alternate family name"
 * valueHumanName.given MS
-* valueHumanName.given ^short = "Alternate given name(s)"
-* valueHumanName.prefix MS
-* valueHumanName.prefix ^short = "Alternate name prefix (title)"
