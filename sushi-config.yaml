@@ -77,6 +77,8 @@ pages:
       title: Terminology
     search-parameters.md:
       title: Search Parameters
+    pbprn-systems.md:
+      title: PBPRN Supported Systems
   examples.md:
     title: Examples
   support.md:
