@@ -1,5 +1,3 @@
-No data is entered directly into Health Connect; all Directory content is sourced from authoritative systems including [PCA](https://developer.digitalhealth.gov.au/fhir/provider-connect-australia/current/index.html?src=/), HI-Service, and NHSD.
-
 ### Peak Body Professional Registration Number (PBPRN)
 
 The Peak Body Professional Registration Number profile defines an identifier for a healthcare practitioner’s professional registration, as recorded in the Health Connect Provider Directory context (as recieved from HI services). This identifier is used to capture the registration number assigned by a professional association or peak body, particularly for practitioners who are **not Ahpra-registered**, and is recorded against a Practitioner's HPI-I record.
