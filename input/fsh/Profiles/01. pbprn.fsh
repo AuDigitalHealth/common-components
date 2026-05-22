@@ -2,7 +2,7 @@ Profile: Peak_Body_Professional_Registration_Number
 Parent: Identifier
 Id: pbprn
 Title: "Peak Body Professional Registration Number (PBPRN)"
-Description: "This identifier profile defines a professional registration number allocated to a healthcare practitioner, in a Health Connect Provider Directory context."
+Description: "This identifier profile defines a peak body (non-Ahpra) professional registration number allocated to a healthcare practitioner"
 * ^experimental = false
 * ^status = #active
 * ^publisher = "Australian Digital Health Agency"
