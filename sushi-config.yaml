@@ -143,7 +143,6 @@ parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+
     - generate #generate: Log when producing an individual resource (troubleshooting only - leave off)
     - init #init: Messages describing the start up process (for debugging)
     - progress #progress: Overall progress messages
-  releaselabel: CI Build
 
   # pin-canonical documentation: https://build.fhir.org/ig/FHIR/ig-guidance/branches/master/pinning.html
   # pin-canonical discussion: https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Canonical.20Pinning/with/534497073
