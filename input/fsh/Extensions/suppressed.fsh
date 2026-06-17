@@ -6,16 +6,7 @@ Description: "Indicates whether the parent resource should be hidden from displa
 * ^url = "http://digitalhealth.gov.au/fhir/cc/StructureDefinition/suppressed"
 * ^status = #active
 * ^experimental = false
-* ^publisher = "Australian Digital Health Agency"
-* ^contact.name = "Australian Digital Health Agency"
-* ^contact.telecom[+].system = #url
-* ^contact.telecom[=].value = "https://www.digitalhealth.gov.au"
-* ^contact.telecom[+].system = #email
-* ^contact.telecom[=].value = "help@digitalhealth.gov.au"
-* ^useContext.code = http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction
-* ^useContext.valueCodeableConcept = urn:iso:std:iso:3166#AU "Australia"
 * ^purpose = "This extension addresses the business requirement to control visibility of provider directory entries, enabling management of which practitioner roles, organizations, healthcare services, locations, or endpoints should be hidden from public directory searches while maintaining data in the system."
-* ^copyright = "Copyright © 2026 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/."
 * . ^short = "Hide Resource in Directory"
 * . ^definition = "When present, indicates that the parent resource is suppressed. Contains information about who initiated the suppression and optional control flags for suppression behavior."
 * . 0..1

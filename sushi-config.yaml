@@ -19,15 +19,7 @@ copyrightYear: 2026+
 releaseLabel: Trial
 license: CC-BY-4.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 
-useContext:
-  - code:
-      system: "http://terminology.hl7.org/CodeSystem/usage-context-type"
-      code: "jurisdiction"
-    valueCodeableConcept:
-      coding:
-        - system: "urn:iso:std:iso:3166"
-          code: "AU"
-          display: "Australia"
+jurisdiction: urn:iso:std:iso:3166#AU "Australia"
 
 publisher:
   name: Australian Digital Health Agency
@@ -119,7 +111,7 @@ parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+
   apply-jurisdiction: true
   apply-publisher: true
   apply-version: true
-  apply-copyright: false
+  apply-copyright: true
   default-copyright: true
   show-inherited-invariants: false
   usage-stats-opt-out: true
@@ -269,7 +261,7 @@ contact:
 # * modifierExtension
 experimental: false
 # * useContext
-copyright: Copyright © 2026 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+copyright: This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 packageId: au.gov.digitalhealth.cc
 #
 #

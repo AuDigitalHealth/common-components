@@ -5,14 +5,7 @@ Title: "Peak Body Professional Registration Number (PBPRN)"
 Description: "This identifier profile defines a peak body (non-Ahpra) professional registration number allocated to a healthcare practitioner"
 * ^experimental = false
 * ^status = #active
-* ^publisher = "Australian Digital Health Agency"
-* ^contact.name = "Australian Digital Health Agency"
-* ^contact.telecom[+].system = #url
-* ^contact.telecom[=].value = "https://www.digitalhealth.gov.au"
-* ^contact.telecom[+].system = #email
-* ^contact.telecom[=].value = "help@digitalhealth.gov.au"
-* ^useContext.code = http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction
-* ^useContext.valueCodeableConcept = urn:iso:std:iso:3166#AU "Australia"
+* ^purpose = "Enables peak body and professional association credentials, recorded against a practitioner's HPI-I, to be captured for those not registered with Ahpra, ensuring their qualifications are accurately represented when searching for or verifying healthcare providers."
 * ^url = "http://digitalhealth.gov.au/fhir/cc/StructureDefinition/pbprn"
 * . ^short = "Peak Body Professional Registration Number"
 * . ^definition = "Professional Registration Number that the practitioner has with Professional association / Peak body association (for non-Ahpra registered practitioners), as recorded against the HPI-I record."

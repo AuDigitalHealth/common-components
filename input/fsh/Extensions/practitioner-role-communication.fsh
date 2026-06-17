@@ -8,14 +8,9 @@ Context: PractitionerRole
 * ^url = "http://digitalhealth.gov.au/fhir/cc/StructureDefinition/practitioner-role-communication"
 * ^status = #active
 * ^experimental = false
-* ^publisher = "Australian Digital Health Agency"
-* ^contact.name = "Australian Digital Health Agency"
-* ^contact.telecom[+].system = #url
-* ^contact.telecom[=].value = "https://www.digitalhealth.gov.au"
-* ^contact.telecom[+].system = #email
-* ^contact.telecom[=].value = "help@digitalhealth.gov.au"
-* ^useContext.code = http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction
-* ^useContext.valueCodeableConcept = urn:iso:std:iso:3166#AU "Australia"
+* ^purpose = "Captures the languages a practitioner can use when communicating with patients in a given role, supporting informed decisions when matching patients to practitioners based on language needs."
+* ^context.type = #element
+* ^context.expression = "PractitionerRole"
 * value[x] only CodeableConcept
 * valueCodeableConcept 0..1
 * valueCodeableConcept from $common-languages-australia-2 (required)

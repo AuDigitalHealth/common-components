@@ -6,14 +6,7 @@ Context: PractitionerRole
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = false
-* ^publisher = "Australian Digital Health Agency"
-* ^contact.name = "Australian Digital Health Agency"
-* ^contact.telecom[+].system = #url
-* ^contact.telecom[=].value = "https://www.digitalhealth.gov.au"
-* ^contact.telecom[+].system = #email
-* ^contact.telecom[=].value = "help@digitalhealth.gov.au"
-* ^useContext.code = http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction
-* ^useContext.valueCodeableConcept = urn:iso:std:iso:3166#AU "Australia"
+* ^purpose = "A name by which a practitioner chooses to be known in the context of the delivery of a specific healthcare service. This may differ from their registered legal name."
 * ^url = "http://digitalhealth.gov.au/fhir/cc/StructureDefinition/alternate-name"
 * . ^short = "Alternate name for practitioner in role context"
 * . ^definition = "A name by which a practitioner chooses to be known in the context of the delivery of a specific healthcare service. This may differ from their registered legal name."
