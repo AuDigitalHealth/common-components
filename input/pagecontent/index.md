@@ -6,7 +6,7 @@
 
 This Implementation Guide (IG) defines reusable FHIR extensions and components that provide consistent data structures and elements for use across multiple Australian Digital Health Agency (ADHA) Implementation Guides. Rather than each ADHA Implementation Guide independently defining common data elements, this guide establishes standardized definitions that promote consistency, reduce duplication, and improve interoperability across the agency's suite of healthcare specifications.
 
-The common components defined in this guide include extensions for capturing frequently used data elements such as active periods, alternate names, amenities, communication preferences, and other structural elements that appear across different healthcare contexts. These components are designed to be implementation-agnostic and can be referenced and reused by any ADHA Implementation Guide that requires these data elements.
+The common components defined in this guide include extensions for capturing frequently used data elements such as active periods, alternate names, amenities, communication preferences, and other structural elements that appear across different healthcare contexts. These components are designed to be implementation-agnostic and can be referenced and reused by any ADHA Implementation Guide that requires these data elements.The Common Components FHIR Implementation Guide is an open specification, allowing implementers to extend it for their own use cases as long as they meet its conformance requirements.
 
 ### Introduction
 
@@ -32,7 +32,9 @@ This guide is divided into several pages which are listed at the top of each pag
   - [Search Parameters](search-parameters.html): This page lists the FHIR search parameters that are defined in this guide.
 - [Examples](examples.html): This page lists sample instances of FHIR resources demonstrating the use of common components.
 - [Support](downloads.html): This section provides support resources for implementers.
+  - [Known Issues](known-issues.html): This page lists known issues with this specification at the time of publishing along with their descriptions.
   - [Downloads](downloads.html): This page provides links to downloadable artefacts including the Agency FHIR NPM package.
+- [Change Log](changelog.html): This page documents the version history and changes made to this implementation guide across different releases.
 - [Licence and Legal](legal.html): This page lists the licensing, copyright, and disclaimers under which this guide is issued.
 
 ### Document purpose and scope

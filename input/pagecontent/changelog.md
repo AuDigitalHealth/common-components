@@ -1,8 +1,8 @@
-**This change log documents the significant updates and resolutions implemented from version 0.1.0 of this IG to present.**
+**This change log documents the significant updates and resolutions implemented from version 26.0.0 - Trial of this IG to present.**
 
-### Release 0.1.0 (Snapshot 1)
-- Publication date: 2025-11-19
-- Publication status: Preview 
+### Release 26.0.0 - Trial
+- Publication date: 2026-xx-xx
+- Publication status: Trial 
 - Based on FHIR version: 4.0.1
 
 ### Changes in this version

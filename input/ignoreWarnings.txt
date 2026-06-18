@@ -3,3 +3,21 @@
 # Add warning and/or information messages here after you've confirmed that they aren't really a problem
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
+A definition could not be found for Canonical URL 'https://healthterminologies.gov.au/fhir/StructureDefinition/complete-code-system-4'
+Profile reference 'https://healthterminologies.gov.au/fhir/StructureDefinition/complete-code-system-4' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+ValueSet 'http://digitalhealth.gov.au/fhir/hcpd/ValueSet/new-patient-availability-vs' not found
+ValueSet 'https://www.healthterminologies.gov.au/integration/v2/fhir/ValueSet?ui:filter=new-patient-availability' not found
+For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+The Implementation Guide contains no examples for this data type profile
+A definition could not be found for Canonical URL 'https://healthterminologies.gov.au/fhir/StructureDefinition/composed-value-set-4'
+Profile reference 'https://healthterminologies.gov.au/fhir/StructureDefinition/composed-value-set-4' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+No definition could be found for URL value 'http://hl7.org.au/id/nata-site'
+No definition could be found for URL value 'http://ns.electronichealth.net.au/id/location-specific-practice-number'
+No definition could be found for URL value 'http://hl7.org.au/id/gnafidentifier'
+A definition could not be found for Canonical URL 'http://digitalhealth.gov.au/fhir/hcpd/ValueSet/new-patient-availability-vs'
+The valueSet reference http://digitalhealth.gov.au/fhir/hcpd/ValueSet/new-patient-availability-vs on element Extension.value[x] could not be resolved
+A definition could not be found for Canonical URL 'https://www.healthterminologies.gov.au/integration/v2/fhir/ValueSet?ui:filter=new-patient-availability'
+The valueSet reference https://www.healthterminologies.gov.au/integration/v2/fhir/ValueSet?ui:filter=new-patient-availability on element Extension.extension.value[x].coding could not be resolved
+A definition for CodeSystem 'https://www.healthterminologies.gov.au/integration/R4/fhir/CodeSystem/new-patient-availability-1' could not be found, so the code cannot be validated
