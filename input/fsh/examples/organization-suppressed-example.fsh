@@ -14,6 +14,4 @@ Description: "An Organization example with the suppression extension."
 * address.postalCode = "2000"
 * extension[+].url = "http://digitalhealth.gov.au/fhir/cc/StructureDefinition/suppressed"
 * extension[=].extension[+].url = "suppressedBy"
-* extension[=].extension[=].valueCodeableConcept = http://digitalhealth.gov.au/fhir/cc/CodeSystem/suppressed-cs#organisation-initiated "Organisation initiated"
-* extension[=].extension[+].url = "includeSelf"
-* extension[=].extension[=].valueBoolean = true
+* extension[=].extension[=].valueCodeableConcept = http://digitalhealth.gov.au/fhir/cc/CodeSystem/responsible-party-type#organisation-initiated "Organisation initiated"

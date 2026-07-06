@@ -13,4 +13,4 @@ Description: "A PractitionerRole example with the suppression extension."
 * telecom[=].use = #work
 * extension[+].url = "http://digitalhealth.gov.au/fhir/cc/StructureDefinition/suppressed"
 * extension[=].extension[+].url = "suppressedBy"
-* extension[=].extension[=].valueCodeableConcept = http://digitalhealth.gov.au/fhir/cc/CodeSystem/suppressed-cs#practitioner-initiated "Practitioner initiated"
+* extension[=].extension[=].valueCodeableConcept = http://digitalhealth.gov.au/fhir/cc/CodeSystem/responsible-party-type#practitioner-initiated "Practitioner initiated"

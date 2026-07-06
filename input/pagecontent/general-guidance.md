@@ -103,10 +103,10 @@ This table lists the experimental dependencies used within this specification at
       <td style="border:1px solid #888;padding:8px 16px;">N/A</td>
     </tr>
     <tr>
-      <td style="border:1px solid #888;padding:8px 16px;"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-hc-suppressed.html">Suppressed</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-suppressed.html">Suppressed</a></td>
       <td style="border:1px solid #888;padding:8px 16px;text-align:center;"><a href="https://build.fhir.org/ig/AuDigitalHealth/HCPD/StructureDefinition-hc-suppressed.html">HCPD</a></td>
       <td style="border:1px solid #888;padding:8px 16px;text-align:center;">—</td>
-      <td style="border:1px solid #888;padding:8px 16px;"><a href="ValueSet-suppressed-vs.html">Common Components IG ValueSet</a> / <a href="CodeSystem-suppressed-cs.html">CodeSystem</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="ValueSet-responsible-party-type.html">Common Components IG ValueSet</a> / <a href="CodeSystem-responsible-party-type.html">CodeSystem</a></td>
     </tr>
   </tbody>
 </table>
