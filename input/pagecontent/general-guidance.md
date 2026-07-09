@@ -108,5 +108,47 @@ This table lists the experimental dependencies used within this specification at
       <td style="border:1px solid #888;padding:8px 16px;text-align:center;">—</td>
       <td style="border:1px solid #888;padding:8px 16px;"><a href="ValueSet-responsible-party-type.html">Common Components IG ValueSet</a> / <a href="CodeSystem-responsible-party-type.html">CodeSystem</a></td>
     </tr>
+    <tr>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-medication-formula-string.md">Medication Formula String</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">ADHA Data Format Mapping</td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">TBD</td>
+      <td style="border:1px solid #888;padding:8px 16px;">N/A</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-medicationdispense-quantity-description.md">Medication Dispense Quantity Description</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">ADHA Data Format Mapping</td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">TBD</td>
+      <td style="border:1px solid #888;padding:8px 16px;">N/A</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-medication-additional-therapeutic-good-detail-string.md">Medication Additional Therapeutic Good Detail String</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">ADHA Data Format Mapping</td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">TBD</td>
+      <td style="border:1px solid #888;padding:8px 16px;">N/A</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-medicationdispense-unique-prescription-number-string.md">Medication Dispense Unique Prescription Number String</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">ADHA Data Format Mapping</td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">TBD</td>
+      <td style="border:1px solid #888;padding:8px 16px;">N/A</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-medicationdispense-repeat-status-code.md">Medication Dispense Repeat Status Code</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">ADHA Data Format Mapping</td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">TBD</td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="ValueSet-medicationdispense-repeat-status-vs.html">Common Components IG ValueSet</a> / <a href="CodeSystem-medicationdispense-repeat-status-cs.html">CodeSystem</a></td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-medicationdispense-maximum-number-of-repeats.md">Medication Dispense Maximum Number Of Repeats</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">ADHA Data Format Mapping</td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">TBD</td>
+      <td style="border:1px solid #888;padding:8px 16px;">N/A</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="StructureDefinition-source-cda-document-identifier.md">Source CDA Document Identifier</a></td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">ADHA Data Format Mapping</td>
+      <td style="border:1px solid #888;padding:8px 16px;text-align:center;">TBD</td>
+      <td style="border:1px solid #888;padding:8px 16px;"><a href="ValueSet-identifier-type-vs.html">Common Components IG ValueSet</a> / <a href="CodeSystem-identifier-type-cs.html">CodeSystem</a></td>
+    </tr>
   </tbody>
 </table>

@@ -43,3 +43,4 @@ Alias: $IARCodeSystem = https://healthterminologies.gov.au/fhir/CodeSystem/iar-l
 Alias: $IARValueSet = https://healthterminologies.gov.au/fhir/ValueSet/iar-levels-of-care-1
 Alias: $HCPD_ResponsiblePartyType_CS = http://digitalhealth.gov.au/fhir/cc/CodeSystem/responsible-party-type
 Alias: $HCPD_ResponsiblePartyType_VS = http://digitalhealth.gov.au/fhir/cc/ValueSet/responsible-party-type
+Alias: $ADHAIdentifierTypeCS = http://digitalhealth.gov.au/fhir/cc/CodeSystem/identifier-type-cs

@@ -25,3 +25,6 @@ The resource CodeSystem/suppressed-cs should have an OID assigned to cater for p
 The resource ValueSet/suppressed-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 The resource CodeSystem/responsible-party-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 The resource ValueSet/responsible-party-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+
+# Known tx-server behavior: PBS item URI is used in examples and may not be enumerable via validator endpoint.
+Unknown code '8214H' in the CodeSystem 'http://pbs.gov.au/code/item'
