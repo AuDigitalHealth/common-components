@@ -9,8 +9,8 @@ This table lists known issues with this specification at the time of publishing.
      <th>Description</th>
    </tr>
    <tr>
-     <td>There are no known issues at the time of publishing</td>
-     <td>There are no known issues at the time of publishing.</td>
+    <td>PBS terminology validation (tx.hl7.org.au)</td>
+    <td>The QA validator may report messages such as "Unknown code '8214H' in the CodeSystem 'http://pbs.gov.au/code/item'". This is expected for PBS item coding in this IG. The URI is correct, and PBS item values are sourced from the Department of Health PBS schedule, which may not be fully enumerable by the terminology server.</td>
    </tr>
  </tbody>
 </table>

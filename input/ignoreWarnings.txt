@@ -25,6 +25,15 @@ The resource CodeSystem/suppressed-cs should have an OID assigned to cater for p
 The resource ValueSet/suppressed-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 The resource CodeSystem/responsible-party-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 The resource ValueSet/responsible-party-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+The resource CodeSystem/identifier-type-cs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+The resource CodeSystem/medicationdispense-repeat-status-cs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+The resource ValueSet/identifier-type-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+The resource ValueSet/medicationdispense-repeat-status-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 
-# Known tx-server behavior: PBS item URI is used in examples and may not be enumerable via validator endpoint.
-Unknown code '8214H' in the CodeSystem 'http://pbs.gov.au/code/item'
+# Expected and accepted terminology validation artifact:
+# http://pbs.gov.au/code/item is the correct PBS Item Codes URI for coding.
+# The PBS Item Codes value set does not enumerate values directly; it points to
+# values in the PBS schedule published by the Department of Health.
+# Unknown-code messages for this URI are expected when tx servers cannot enumerate
+# that external schedule. Revisit if tx.hl7.org.au adds complete PBS enumeration.
+in the CodeSystem 'http://pbs.gov.au/code/item'
