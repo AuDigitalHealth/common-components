@@ -30,7 +30,7 @@ The resource CodeSystem/medicationdispense-repeat-status-cs should have an OID a
 The resource ValueSet/identifier-type-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 The resource ValueSet/medicationdispense-repeat-status-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 
-# Known tx-server behavior: PBS item codes is used in examples and may not be enumerable via validator endpoint.
+# Known tx-server behavior: PBS item code is used in examples and may not be enumerable via validator endpoint.
 Unknown code '8214H' in the CodeSystem 'http://pbs.gov.au/code/item'
 
 # http://pbs.gov.au/code/item is the correct PBS Item Codes URI for coding.
