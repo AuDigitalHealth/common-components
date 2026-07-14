@@ -9,11 +9,12 @@ This extension is used to indicate whether the parent resource should be hidden 
 
 ### Datatype and Context
 
-The Suppressed extension is a complex extension that contains information about suppression behavior. It includes a required `suppressedBy` sub-extension (CodeableConcept) that indicates who initiated the suppression request. The coded values are drawn from the [Common Components Suppression CodeSystem](CodeSystem-responsible-party-type.html).
+The Suppressed extension is a complex extension that contains information about suppression behavior. It includes a required `suppressedBy` sub-extension (CodeableConcept) that indicates who initiated the suppression request, and an optional `includeSelf` sub-extension (boolean) for Organization-specific behavior. The coded values are drawn from the [Common Components Responsible Party Type CodeSystem](CodeSystem-responsible-party-type.html).
 
 This extension is profiled on the following resources: Organization, Practitioner, PractitionerRole, HealthcareService, Location, and Endpoint.
 - When absent, the resource is visible in Provider Directory listings.
 - When present, it indicates the resource is suppressed and identifies who initiated the suppression.
+- For Organization resources, the Suppressed extension includes an `includeSelf` sub-extension that controls whether the Organization itself is suppressed in addition to cascade suppression of child resources
 
 ### Suppression Scenarios
 
@@ -24,6 +25,9 @@ This extension enables several suppression patterns:
 
 2. **Organization suppression with cascade control**:
    - Organization with Suppressed extension (organisation-initiated) triggers cascade suppression to all child resources.
+   - The nested `includeSelf` sub-extension controls whether the Organization itself is also hidden:
+     - When true: Organization hides itself and automatically cascades to suppress everything related (locations, services, etc.)
+     - When false: Organization keeps itself visible but cascade automatically hides all related resources (locations, services, etc.)
 
 3. **PractitionerRole specific suppression**:
    - PractitionerRole with Suppressed extension is hidden without affecting the Practitioner profile.
@@ -48,11 +52,11 @@ The Common Components IG supports a hierarchical model where certain resources a
 
 The coded values in Suppressed indicate who has the authority to suppress a resource, with some resources having competing authorities due to their position in the hierarchy.
 
-| Resource Type | organisation-initiated | practitioner-initiated |
-|---|:---:|:---:|
-| Organization | <span style="background-color: #90EE90">✓</span> | <span style="background-color: #FFB6C1">✗</span> |
-| HealthcareService | <span style="background-color: #90EE90">✓</span> | <span style="background-color: #FFB6C1">✗</span> |
-| Location | <span style="background-color: #90EE90">✓</span> | <span style="background-color: #FFB6C1">✗</span> |
-| Endpoint | <span style="background-color: #90EE90">✓</span> | <span style="background-color: #FFB6C1">✗</span> |
-| PractitionerRole | <span style="background-color: #90EE90">✓</span> | <span style="background-color: #90EE90">✓</span> |
-| Practitioner | <span style="background-color: #FFB6C1">✗</span> | <span style="background-color: #90EE90">✓</span> |
+| Resource Type | organisation-initiated,<br/>includeSelf = T | organisation-initiated,<br/>includeSelf = F | practitioner-initiated |
+|---|:---:|:---:|:---:|
+| Organization | <span style="background-color: #90EE90">✓</span> | <span style="background-color: #FFB6C1">✗</span> | <span style="background-color: #FFB6C1">✗</span> |
+| HealthcareService | <span style="background-color: #90EE90">✓</span> | <span style="background-color: #90EE90">✓</span> | <span style="background-color: #FFB6C1">✗</span> |
+| Location | <span style="background-color: #90EE90">✓</span> | <span style="background-color: #90EE90">✓</span> | <span style="background-color: #FFB6C1">✗</span> |
+| Endpoint | <span style="background-color: #90EE90">✓</span> | <span style="background-color: #90EE90">✓</span> | <span style="background-color: #FFB6C1">✗</span> |
+| PractitionerRole | <span style="background-color: #90EE90">✓</span> | <span style="background-color: #90EE90">✓</span> | <span style="background-color: #90EE90">✓</span> |
+| Practitioner | <span style="background-color: #FFB6C1">✗</span> | <span style="background-color: #FFB6C1">✗</span> | <span style="background-color: #90EE90">✓</span> |
