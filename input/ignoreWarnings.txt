@@ -4,7 +4,7 @@
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
-The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
+The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced Implementation Guide
 A definition could not be found for Canonical URL 'https://healthterminologies.gov.au/fhir/StructureDefinition/complete-code-system-4'
 Profile reference 'https://healthterminologies.gov.au/fhir/StructureDefinition/complete-code-system-4' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 ValueSet 'http://digitalhealth.gov.au/fhir/hcpd/ValueSet/new-patient-availability-vs' not found

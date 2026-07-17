@@ -10,7 +10,7 @@ In this IG, the meaning of *Must Support* is specified in terms of [Obligation C
 To interpret elements labelled as must support follow the guidance in AU Core at [Interpreting Profile Elements Labelled Must Support](https://build.fhir.org/ig/hl7au/au-fhir-core/general-requirements.html#interpreting-profile-elements-labelled-must-support).
 
 ##### Must Support & Obligations
-This implementation guide defines obligations to specify behaviour for data elements when using the extensions and profiles defined in this IG. While this IG builds upon AU Core profiles, implementers should refer to the specific obligations defined in their implementation context.
+This Implementation Guide defines obligations to specify behaviour for data elements when using the extensions and profiles defined in this IG. While this IG builds upon AU Core profiles, implementers should refer to the specific obligations defined in their implementation context.
 
 Generally the main obligations applied within this IG are:
 
@@ -49,7 +49,7 @@ This table lists the experimental dependencies used within this specification at
  </tbody>
 </table>
 
-<h3>Extension Summary Table</h3>
+### Extension Summary Table
 <table style="border-collapse:collapse;">
   <thead>
     <tr>

@@ -1,6 +1,6 @@
 ### Downloadable copy of entire specification
 
-A downloadable version of the entire implementation guide is available so it can be hosted locally:
+A downloadable version of the entire Implementation Guide is available so it can be hosted locally:
 
 - [Downloadable Copy](full-ig.zip)
 
@@ -15,7 +15,7 @@ See the overview on [validating FHIR profiles and resources](http://hl7.org/fhir
 
 ### Examples 
 
-All examples included in this implementation guide are available for download:
+All examples included in this Implementation Guide are available for download:
 
 - [XML](examples.xml.zip)
 - [JSON](examples.json.zip)

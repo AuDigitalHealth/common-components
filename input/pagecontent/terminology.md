@@ -1,4 +1,4 @@
-The [value sets](http://hl7.org/fhir/R4/valueset.html) and [code systems](http://hl7.org/fhir/R4/codesystem.html) listed below are defined as part of this implementation guide.
+The [value sets](http://hl7.org/fhir/R4/valueset.html) and [code systems](http://hl7.org/fhir/R4/codesystem.html) listed below are defined as part of this Implementation Guide.
 
 ### Value sets
 {% include list-simple-valuesets.xhtml %}
