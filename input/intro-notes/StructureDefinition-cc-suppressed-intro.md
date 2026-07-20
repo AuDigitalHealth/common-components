@@ -9,7 +9,7 @@ This extension is used to indicate whether the parent resource should be hidden 
 
 ### Datatype and Context
 
-The Suppressed extension is a complex extension that contains information about suppression behavior. It includes a required `suppressedBy` sub-extension (CodeableConcept) that indicates who initiated the suppression request, and an optional `includeSelf` sub-extension (boolean) for Organization-specific behavior. The coded values are drawn from the [Common Components Responsible Party Type CodeSystem](CodeSystem-responsible-party-type.html).
+The Suppressed extension is a complex extension that contains information about suppression behaviour. It includes a required `suppressedBy` sub-extension (CodeableConcept) that indicates who initiated the suppression request, and an optional `includeSelf` sub-extension (boolean) for Organization-specific behaviour. The coded values are drawn from the [Common Components Responsible Party Type CodeSystem](CodeSystem-responsible-party-type.html).
 
 This extension is profiled on the following resources: Organization, Practitioner, PractitionerRole, HealthcareService, Location, and Endpoint.
 - When absent, the resource is visible in Provider Directory listings.
@@ -44,7 +44,7 @@ This extension enables several suppression patterns:
 
 ### Hierarchical Suppression Model
 
-The Common Components IG supports a hierarchical model where certain resources are considered children of others. This hierarchy determines the cascading behavior of suppression and which initiator codes are permitted on each resource type.
+The Common Components IG supports a hierarchical model where certain resources are considered children of others. This hierarchy determines the cascading behaviour of suppression and which initiator codes are permitted on each resource type.
 
 **Suppression cascade:**
 - **Organization** (parent) → HealthcareService, Location, PractitionerRole, Endpoint (children)

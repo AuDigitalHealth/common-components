@@ -8,7 +8,7 @@ Description: "Indicates whether the parent resource should be hidden from displa
 * ^experimental = false
 * ^purpose = "This extension addresses the business requirement to control visibility of provider directory entries, enabling management of which practitioner roles, organizations, healthcare services, locations, or endpoints should be hidden from public directory searches while maintaining data in the system."
 * . ^short = "Hide Resource in Directory"
-* . ^definition = "When present, indicates that the parent resource is suppressed. Contains information about who initiated the suppression and optional control flags for suppression behavior."
+* . ^definition = "When present, indicates that the parent resource is suppressed. Contains information about who initiated the suppression and optional control flags for suppression behaviour."
 * . 0..1
 * extension contains
     suppressedBy 1..1 MS and includeSelf 0..1 MS
