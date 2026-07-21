@@ -1,5 +1,6 @@
 Instance: location-amenity-example
 InstanceOf: Location
+Title: "Location Amenity Example"
 * id = "amenity-example"
 * status = #active
 * name = "Example Clinic Location"

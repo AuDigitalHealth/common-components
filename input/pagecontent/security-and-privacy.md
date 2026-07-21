@@ -1,6 +1,6 @@
 ### Security and Privacy
 
-When implementing Health Connect Provider Directory (HCPD), implementers need to be aware of FHIR security and safety considerations and take appropriate measures to protect information privacy and prevent exploitation by malicious actors. In particular, implementers are advised to review:
+When implementing Common Components (CC), implementers need to be aware of FHIR security and safety considerations and take appropriate measures to protect information privacy and prevent exploitation by malicious actors. In particular, implementers are advised to review:
 
 - [FHIR Security Considerations](https://hl7.org/fhir/R4/security.html)
 - [FHIR Implementer Safety Checklist](https://hl7.org/fhir/R4/safety.html)
