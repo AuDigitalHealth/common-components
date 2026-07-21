@@ -20,7 +20,7 @@ When a system uses extensions defined in this Implementation Guide:
 
 ### Must Support
 
-For profiles that utilize extensions from this Implementation Guide, *Must Support* on any data element **SHALL** be interpreted as follows:
+For profiles that use extensions from this Implementation Guide, *Must Support* on any data element **SHALL** be interpreted as follows:
 
 * Sending systems **SHALL** be capable of including the data element in the resource instance if the data element is available
 * Receiving systems **SHALL** be capable of processing resource instances containing the data element without generating an error or causing the application to fail
