@@ -22,33 +22,6 @@ Generally the main obligations applied within this IG are:
 
 * Data elements that do not have specific FHIR obligations defined can be ignored by implementers unless explicitly required by their specific use case or local requirements.
 
-#### Experimental dependencies
-
-This table lists the experimental dependencies used within this specification at the time of publishing. We acknowledge that while not ideal, the reasons for doing so are valid and described below. 
-
-<table border="1" cellpadding="1" valign="middle">
- <tbody>
-  <col width="20%" />
-  <col width="80%" />
-  <tr bgcolor="#DCDCDC">
-    <th>Reference</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>XXXX</td>
-    <td>
-     XXXXX
-    </td>
-  </tr>
-  <tr>
-    <td>XXXX</td>
-    <td>
-   XXXXXXX
-    </td>
-  </tr>
- </tbody>
-</table>
-
 ### Extension Summary Table
 <table style="border-collapse:collapse;">
   <thead>

@@ -1,5 +1,3 @@
-# Conformance
-
 This page describes the conformance requirements for systems implementing this Implementation Guide.
 
 ### General Conformance Requirements
