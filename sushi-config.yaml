@@ -3,7 +3,7 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: au.gov.digitalhealth.cc
+id: au.gov.digitalhealth.fhir.cc
 canonical: http://digitalhealth.gov.au/fhir/cc
 date: 2026-03-31
 name: CC_ImplementationGuide
@@ -262,7 +262,7 @@ contact:
 experimental: false
 # * useContext
 copyright: This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
-packageId: au.gov.digitalhealth.cc
+packageId: au.gov.digitalhealth.fhir.cc
 #
 #
 # ╭──────────────────────────────────────────SUSHI flags───────────────────────────────────────────╮
