@@ -14,7 +14,7 @@ Context: PractitionerRole
 * value[x] only HumanName
 * valueHumanName ^short = "Alternate name"
 * valueHumanName ^definition = "The alternate name by which the practitioner wishes to be known in this role context."
-* valueHumanName.use MS
+* valueHumanName.use
 * valueHumanName.use ^short = "Alternate name use"
-* valueHumanName.family MS
-* valueHumanName.given MS
+* valueHumanName.family
+* valueHumanName.given

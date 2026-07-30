@@ -9,16 +9,16 @@ Description: "This identifier profile defines a peak body (non-Ahpra) profession
 * ^url = "http://digitalhealth.gov.au/fhir/cc/StructureDefinition/pbprn"
 * . ^short = "Peak Body Professional Registration Number"
 * . ^definition = "Professional Registration Number that the practitioner has with Professional association / Peak body association (for non-Ahpra registered practitioners), as recorded against the HPI-I record."
-* type 1.. MS
+* type 1..
 * type = $v2-0203-int#PRN (exactly)
 * type ^short = "Coded identifier type for professional registration number"
 * type.text = "Peak Body Professional Registration Number"
-* system 1.. MS
+* system 1..
 * system ^short = "Professional registration number system."
 * system ^definition = "Namespace for the professional registration number."
-* value 1.. MS
+* value 1..
 * value ^short = "Professional registration number value."
 * value ^definition = "Professional registration number value."
-* assigner MS
-* assigner.display 1.. MS
+* assigner
+* assigner.display 1..
 * assigner.display ^short = "Text alternative for the Organization"

@@ -35,11 +35,9 @@ This guide is divided into several pages which are listed at the top of each pag
 - [Change Log](changelog.html): This page documents the version history and changes made to this Implementation Guide across different releases.
 - [Licence and Legal](legal.html): This page lists the licensing, copyright, and disclaimers under which this guide is issued.
 
-### Document purpose and scope
+### Document purpose
 
-The primary aim of this Implementation Guide is to provide consistent, reusable FHIR components for use across ADHA Implementation Guides. It establishes Standardised extensions and data structures that can be referenced by other Implementation Guides, ensuring consistency and promoting interoperability within Australia's digital health ecosystem.
-
-This document defines the technical specifications for FHIR extensions and components, including their structure, usage patterns, and conformance requirements. It is designed to be used by Implementation Guide authors and system implementers who need to incorporate these common elements into their healthcare systems or specifications.
+This document defines the technical specifications for FHIR extensions and components, including their structure and usage patterns. It is designed for Implementation Guide authors and system implementers who need to incorporate these common elements into their healthcare systems or specifications.
 
 Reference has been made to International and Australian Standards, and to Standards from HL7. The following standards are referred to in the text in such a way that some or all of its content constitutes requirements for the purposes of this specification:
 * [FHIR, Release 4 (v{{ site.data.fhir.version }}) [HL7FHIR4]](#HL7FHIR4)
@@ -73,10 +71,6 @@ This Implementation Guide establishes foundational components that are designed 
 ### Global profiles
 
 {% include globals-table.xhtml %}
-
-### Common components overview
-
-The Agency Common Components Implementation Guide defines a collection of FHIR extensions that capture common data elements used across multiple healthcare contexts. These components are designed to be implementation-agnostic and can be applied to various FHIR resources as needed.
 
 ### References
 
