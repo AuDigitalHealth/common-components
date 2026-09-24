@@ -10,6 +10,8 @@ Description: "Human-readable quantity descriptions (e.g., '30 tablets (1 month s
 * ^context[=].expression = "MedicationDispense.quantity"
 * ^context[+].type = #element
 * ^context[=].expression = "MedicationRequest.dispenseRequest.quantity"
+* ^context[+].type = #element
+* ^context[=].expression = "MedicationStatement"
 * ^version = "1.0.0"
 * value[x] only string
 * valueString ^short = "Quantity description text"
