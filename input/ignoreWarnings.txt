@@ -30,6 +30,21 @@ The resource CodeSystem/medicationdispense-repeat-status-cs should have an OID a
 The resource ValueSet/identifier-type-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 The resource ValueSet/medicationdispense-repeat-status-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 
+# Known upstream bug in the stock HL7 fhir.base.template's searchform.html (unclosed <img> tag and
+# orphaned/duplicated closing </div> tags around the breadcrumb/segment-content sections). Confirmed
+# byte-identical to the cached fhir.base.template package, so this is not IG content and is not
+# fixable within this repository; only affects the ancillary "Search (Current Build)" page.
+The html source is not well formed: Found "</a>" expecting "</img>"
+The html source is not well formed: Found "</div>" expecting "</body>"
+The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
+The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 10
+The html source is not well formed: Found "</div>" expecting "</body>" at line 80 column 9
+The html source is not well formed: Found "</div>" expecting "</body>" at line 109 column 8
+The html source is not well formed: Found "</div>" expecting "</body>" at line 111 column 12
+The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 20
+The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 16
+The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 12
+
 # Known tx-server behavior: PBS item code is used in examples and may not be enumerable via validator endpoint.
 Unknown code '8214H' in the CodeSystem 'http://pbs.gov.au/code/item'
 
@@ -39,3 +54,9 @@ Unknown code '8214H' in the CodeSystem 'http://pbs.gov.au/code/item'
 # Unknown-code messages for this URI are expected when tx servers cannot enumerate
 # that external schedule. Revisit if tx.hl7.org.au adds complete PBS enumeration.
 in the CodeSystem 'http://pbs.gov.au/code/item'
+The resource CodeSystem/identifier-type-cs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+The resource CodeSystem/medicationdispense-repeat-status-cs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+The resource CodeSystem/responsible-party-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+The resource ValueSet/identifier-type-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+The resource ValueSet/medicationdispense-repeat-status-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+The resource ValueSet/responsible-party-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)

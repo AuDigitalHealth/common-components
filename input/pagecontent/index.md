@@ -1,30 +1,30 @@
-# Agency Common Components FHIR Implementation Guide
+Agency Common Components FHIR Implementation Guide (IG)
 
 ### Scope
 
-This Implementation Guide (IG) defines reusable FHIR extensions and components that provide consistent data structures and elements for use across multiple Australian Digital Health Agency (ADHA) Implementation Guides. Rather than each ADHA Implementation Guide independently defining common data elements, this guide establishes Standardised definitions that promote consistency, reduce duplication, and improve interoperability across the agency's suite of healthcare specifications.
+This Implementation Guide defines reusable FHIR extensions and components that provide consistent data structures and elements for use across multiple Australian Digital Health Agency (the Agency) Implementation Guides. Rather than each Agency Implementation Guide independently defining common data elements, this guide establishes standardised definitions that promote consistency, reduce duplication, and improve interoperability across the agency's suite of healthcare specifications.
 
-The common components defined in this guide include extensions for capturing frequently used data elements such as active periods, alternate names, amenities, communication preferences, and other structural elements that appear across different healthcare contexts. These components are designed to be implementation-agnostic and can be referenced and reused by any ADHA Implementation Guide that requires these data elements.The Common Components FHIR Implementation Guide is an open specification, allowing implementers to extend it for their own use cases as long as they meet its conformance requirements.
+The common components defined in this guide include extensions for capturing frequently used data elements such as active periods, alternate names, amenities, communication preferences, and other structural elements that appear across different healthcare contexts. These components are designed to be implementation-agnostic and can be referenced and reused by any Agency Implementation Guide that requires these data elements.The Common Components FHIR Implementation Guide is an open specification, allowing implementers to extend it for their own use cases.
 
 ### Introduction
 
-The Australian Digital Health Agency (ADHA) develops multiple FHIR Implementation Guides to support various healthcare use cases and systems across Australia's digital health ecosystem. As the number and complexity of these Implementation Guides has grown, common patterns and data elements have emerged that are needed across multiple specifications. 
+The Australian Digital Health Agency (the Agency) develops multiple FHIR Implementation Guides to support various healthcare use cases and systems across Australia's digital health ecosystem. As the number and complexity of these Implementation Guides has grown, common patterns and data elements have emerged that are needed across multiple specifications. 
 
-Rather than allowing each Implementation Guide to define these common elements independently—which could lead to inconsistencies and interoperability challenges—this Common Components Implementation Guide consolidates these shared elements into a single, authoritative source. This approach ensures consistency across ADHA's portfolio of Implementation Guides while reducing development effort and maintenance overhead.
+Rather than allowing each Implementation Guide to define these common elements independently—which could lead to inconsistencies and interoperability challenges—this Common Components Implementation Guide consolidates these shared elements into a single, authoritative source. This approach ensures consistency across the Agency's portfolio of Implementation Guides while reducing development effort and maintenance overhead.
 
-The common components approach aligns with ADHA's commitment to promoting interoperability and consistency within Australia's digital health infrastructure. By providing Standardised, reusable components, this guide supports the broader goals of the [National Digital Health Strategy 2023–2028](https://www.digitalhealth.gov.au/national-digital-health-strategy) and helps ensure that healthcare systems can exchange information reliably across different use cases and implementations.
+The common components approach aligns with the Agency's commitment to promoting interoperability and consistency within Australia's digital health infrastructure. By providing Standardised, reusable components, this guide supports the broader goals of the [National Digital Health Strategy 2023–2028](https://www.digitalhealth.gov.au/national-digital-health-strategy) and helps ensure that healthcare systems can exchange information reliably across different use cases and implementations.
 
 ### How to read this guide
 
 This guide is divided into several pages which are listed at the top of each page in the menu bar.
 
 - [Home](index.html): This page provides the introduction and scope for the Implementation Guide.
-- [Conformance](conformance.html): This page describes the set of rules to claim conformance to this guide.
+- [Conformance](conformance.html): This page clarifies that conformance requirements are defined by the individual Implementation Guides that reference these common components, rather than by this guide directly.
 - [Guidance](guidance.html): This page provides implementation guidance and best practices for using the Agency Common Components FHIR IG.
   - [General Guidance](general-guidance.html): This page provides implementation conventions and guidance for using the common components defined in this guide.
 - [Security and Privacy](security-and-privacy.html): This page provides security and privacy considerations for implementations using these common components.
 - [FHIR Artefacts](artifacts.html): These pages provide detailed descriptions and formal definitions for all the FHIR artefacts defined in this guide.
-  - [Artifacts Summary](artifacts.html): This page provides a comprehensive summary of all FHIR artifacts defined in this Implementation Guide including extensions and other conformance resources.
+  - [Artefacts Summary](artifacts.html): This page provides a comprehensive summary of all FHIR artefacts defined in this Implementation Guide including extensions and other conformance resources.
   - [Profiles and Extensions](profiles-and-extensions.html): This page lists the FHIR extensions that are defined in this guide.
   - [Terminology](terminology.html): This page lists the FHIR terminology resources that are defined in this guide.
   - [Search Parameters](search-parameters.html): This page lists the FHIR search parameters that are defined in this guide.
@@ -51,16 +51,16 @@ Wherever possible, material in this specification is based on existing standards
 
 This Implementation Guide is aimed at:
 
-- **Implementation Guide Authors**: ADHA staff and contractors developing new FHIR Implementation Guides who need to incorporate common data elements
-- **Software Development Teams**: Developers implementing systems that conform to ADHA Implementation Guides
-- **System Architects and Designers**: Technical professionals designing healthcare information systems that need to integrate with ADHA-specified standards
-- **Standards Analysts**: Professionals working with healthcare data standards who need to understand common patterns across ADHA specifications
+- **Implementation Guide Authors**: Agency staff and contractors developing new FHIR Implementation Guides who need to incorporate common data elements
+- **Software Development Teams**: Developers implementing systems that conform to the Agency Implementation Guides
+- **System Architects and Designers**: Technical professionals designing healthcare information systems that need to integrate with the Agency-specified standards
+- **Standards Analysts**: Professionals working with healthcare data standards who need to understand common patterns across the Agency specifications
 
 This Implementation Guide and related artefacts are technical in nature and the audience is expected to be familiar with the language of health data specifications and to have some familiarity with health information standards and specifications, such as FHIR.
 
 ### Relationships with other work
 
-This Implementation Guide establishes foundational components that are designed to be referenced and used by other ADHA Implementation Guides. It builds on established HL7 Australia standards to ensure consistency and interoperability within the broader Australian healthcare standards ecosystem.
+This Implementation Guide establishes foundational components that are designed to be referenced and used by other Agency Implementation Guides. It builds on established HL7 Australia standards to ensure consistency and interoperability within the broader Australian healthcare standards ecosystem.
 
 {% include dependency-table-short.xhtml %}
 

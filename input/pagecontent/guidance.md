@@ -1,6 +1,6 @@
 ## Criteria for Inclusion in this Implementation Guide
 
-The following practical criteria are used to determine whether a component (profile, extension, value set, etc.) is included in this Implementation Guide (IG):
+The following practical criteria are used to determine whether a component (profile, extension, value set, etc.) is included in this Implementation Guide:
 
 1. **Cross-IG Usage**  
 	The component is used by two or more Implementation Guides (IGs), or there is a clear plan for adoption by multiple IGs. This ensures shared components are centrally maintained and reduces duplication.

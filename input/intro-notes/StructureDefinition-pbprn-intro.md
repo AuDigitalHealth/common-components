@@ -1,6 +1,4 @@
-### Peak Body Professional Registration Number (PBPRN)
-
-The Peak Body Professional Registration Number profile defines an identifier for a healthcare practitioner’s professional registration, as recorded in the Health Connect Provider Directory context (as received from HI services). This identifier is used to capture the registration number assigned by a professional association or peak body, particularly for practitioners who are **not Ahpra-registered**, and is recorded against a Practitioner's HPI-I record.
+The Peak Body Professional Registration Number profile defines an identifier for a healthcare practitioner’s professional registration (as received from HI services). This identifier is used to capture the registration number assigned by a professional association or peak body, particularly for practitioners who are **not Ahpra-registered**, and is recorded against a Practitioner's HPI-I record.
 
 ### Usage notes
 
@@ -29,4 +27,4 @@ The Peak Body Professional Registration Number profile defines an identifier for
 - The `assigner` element is not constrained by this profile (it may be populated to reference the issuing organisation where available, but it is not required). Implementers are encouraged to populate `assigner.display` to improve provenance and traceability when the issuing Organization resource is not available.
 - A warning-level invariant `inv-01-system-or-assigner` checks that either a `system` and or `assigner` is present to ensure proper identification of the authoritative body that issued the registration number.
 
-Implementers must ensure that the Peak Body Registration Number is used only for valid, assigned registration numbers and that all required elements are present and correct. This supports accurate practitioner identification and data integrity across the Health Connect Provider Directory.
+Implementers must ensure that the Peak Body Registration Number is used only for valid, assigned registration numbers and that all required elements are present and correct. This supports accurate practitioner identification and data integrity across the implementation.
