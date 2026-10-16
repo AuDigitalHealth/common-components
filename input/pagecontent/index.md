@@ -1,5 +1,3 @@
-Agency Common Components FHIR Implementation Guide (IG)
-
 ### Scope
 
 This Implementation Guide defines reusable FHIR extensions and components that provide consistent data structures and elements for use across multiple Australian Digital Health Agency (the Agency) Implementation Guides. Rather than each Agency Implementation Guide independently defining common data elements, this guide establishes standardised definitions that promote consistency, reduce duplication, and improve interoperability across the agency's suite of healthcare specifications.
